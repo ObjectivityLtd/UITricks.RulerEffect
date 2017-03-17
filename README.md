@@ -1,3 +1,3 @@
 # UITricks.RulerEffect
 
-Example of how create scale effect like in Photoshop with only CSS
+Example of how create ruler line effect with only CSS
