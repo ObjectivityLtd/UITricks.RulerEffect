@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+}
+
+.container {
+    background: #f8f8f7;
+    position: relative;
+    padding: 42px 72px;
+    overflow: hidden;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.ruler-effect {
+    background-color: #f8f8f7;
+    background-image: linear-gradient(90deg, #e5e5e5 0, #e5e5e5 2%, transparent 2%), linear-gradient(180deg, #f8f8f7 50%, transparent 50%), linear-gradient(90deg, transparent 50%, #e5e5e5 50%, #e5e5e5 52%, transparent 52%), linear-gradient(180deg, #f8f8f7 70%, transparent 70%), linear-gradient(90deg, transparent 10%, #e5e5e5 10%, #e5e5e5 12%, transparent 12%, transparent 20%, #e5e5e5 20%, #e5e5e5 22%, transparent 22%, transparent 30%, #e5e5e5 30%, #e5e5e5 32%, transparent 32%, transparent 40%, #e5e5e5 40%, #e5e5e5 42%, transparent 42%, transparent 60%, #e5e5e5 60%, #e5e5e5 62%, transparent 62%, transparent 70%, #e5e5e5 70%, #e5e5e5 72%, transparent 72%, transparent 80%, #e5e5e5 80%, #e5e5e5 82%, transparent 82%, transparent 90%, #e5e5e5 90%, #e5e5e5 92%, transparent 92%);
+    background-size: 50px 20px;
+    background-repeat: repeat-x;
+    min-height: 20px;
+    white-space: nowrap;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 11px;
+    transform-origin: left;
+    top: -10px;
+}
+
+.ruler-effect label {
+    color: #8c8c8c;
+    font-size: 9px;
+    display: inline-block;
+    width: 52px;
+    text-indent: 3px;
+    font-weight: 400;
+}
